@@ -13,6 +13,7 @@
         "cross-env": "^5.0",
         "laravel-mix": "^6.0",
         "laravel-nova": "^1.12",
+        "laravel-nova-ui": "0.4.12",
         "vue-loader": "^16.8",
         "vuex": "^4.0.2"
     },

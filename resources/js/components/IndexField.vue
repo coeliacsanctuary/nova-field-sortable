@@ -1,16 +1,20 @@
 <template>
   <div class="flex justify-center text-gray-400">
     <button @click.stop="reorderResource('up')" class="toolbar-button px-2" :class="{ invisible: canNotSortUp }" :aria-label="this.__('Up')" type="button">
-      <Icon type="chevron-up"/>
+      <Icon name="chevron-up"/>
     </button>
-    <button @click.stop="reorderResource('down')" class="toolbar-button px-2" :class="{ invisible: canNotSortDown }" :aria-label="this.__('Down')" type="button">
-      <Icon type="chevron-down"/>
+    <button @click.stop="reorderResource('down')" class="toolbar-button px-2" :class="{ invisible: canNotSortDown }" :aria-label="this.__('Down')" name="button">
+      <Icon name="chevron-down"/>
     </button>
   </div>
 </template>
 
 <script>
+import { Icon } from 'laravel-nova-ui'
+
 export default {
+  components: {Icon},
+
   props: ['resource', 'resourceName', 'field'],
 
   methods: {
