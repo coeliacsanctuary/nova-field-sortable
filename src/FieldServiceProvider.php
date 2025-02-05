@@ -1,6 +1,6 @@
 <?php
 
-namespace PixelCreation\NovaFieldSortable;
+namespace CoeliacSanctuary\NovaFieldSortable;
 
 use Laravel\Nova\Nova;
 use Illuminate\Support\Facades\Route;

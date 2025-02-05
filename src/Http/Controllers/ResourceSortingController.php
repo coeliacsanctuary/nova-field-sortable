@@ -1,6 +1,6 @@
 <?php
 
-namespace PixelCreation\NovaFieldSortable\Http\Controllers;
+namespace CoeliacSanctuary\NovaFieldSortable\Http\Controllers;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Routing\Controller;

@@ -1,5 +1,5 @@
 {
-    "name": "pixelcreation/nova-field-sortable",
+    "name": "coeliacsanctuary/nova-field-sortable",
     "description": "A Nova field for ordering resources.",
     "keywords": [
         "laravel",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PixelCreation\\NovaFieldSortable\\": "src/"
+            "CoeliacSanctuary\\NovaFieldSortable\\": "src/"
         }
     },
     "extra": {

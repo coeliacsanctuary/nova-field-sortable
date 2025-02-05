@@ -1,6 +1,6 @@
 <?php
 
-namespace PixelCreation\NovaFieldSortable;
+namespace CoeliacSanctuary\NovaFieldSortable;
 
 use Laravel\Nova\Fields\Field;
 

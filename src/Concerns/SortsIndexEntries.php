@@ -1,6 +1,6 @@
 <?php
 
-namespace PixelCreation\NovaFieldSortable\Concerns;
+namespace CoeliacSanctuary\NovaFieldSortable\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
 use Laravel\Nova\Http\Requests\NovaRequest;
