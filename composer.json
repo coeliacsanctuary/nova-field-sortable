@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PixelCreation\\NovaFieldSortable\\FieldServiceProvider"
+                "CoeliacSanctuary\\NovaFieldSortable\\FieldServiceProvider"
             ]
         }
     },
